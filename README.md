@@ -1,2 +1,2 @@
 # Grit-book
-introduction of Grit book from Angela Duckworth  (FA) with HTML, CSS, Bootstrap 4
+introduction of Grit book has written with Angela Duckworth  (FA) with HTML, CSS, Bootstrap 4
