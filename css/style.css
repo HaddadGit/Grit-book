@@ -1,0 +1,270 @@
+    /* font */
+    /* @font-face {
+        font-family: Vazir;
+        src: url('Vazir.eot');
+        src: url('Vazir.eot?#iefix') format('embedded-opentype'), url('Vazir.woff2') format('woff2'), url('Vazir.woff') format('woff'), url('Vazir.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: Vazir;
+        src: url('Vazir-Bold.eot');
+        src: url('Vazir-Bold.eot?#iefix') format('embedded-opentype'), url('Vazir-Bold.woff2') format('woff2'), url('Vazir-Bold.woff') format('woff'), url('Vazir-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: Vazir;
+        src: url('Vazir-Black.eot');
+        src: url('Vazir-Black.eot?#iefix') format('embedded-opentype'), url('Vazir-Black.woff2') format('woff2'), url('Vazir-Black.woff') format('woff'), url('Vazir-Black.ttf') format('truetype');
+        font-weight: 900;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: Vazir;
+        src: url('Vazir-Medium.eot');
+        src: url('Vazir-Medium.eot?#iefix') format('embedded-opentype'), url('Vazir-Medium.woff2') format('woff2'), url('Vazir-Medium.woff') format('woff'), url('Vazir-Medium.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: Vazir;
+        src: url('Vazir-Light.eot');
+        src: url('Vazir-Light.eot?#iefix') format('embedded-opentype'), url('Vazir-Light.woff2') format('woff2'), url('Vazir-Light.woff') format('woff'), url('Vazir-Light.ttf') format('truetype');
+        font-weight: 300;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: Vazir;
+        src: url('Vazir-Thin.eot');
+        src: url('Vazir-Thin.eot?#iefix') format('embedded-opentype'), url('Vazir-Thin.woff2') format('woff2'), url('Vazir-Thin.woff') format('woff'), url('Vazir-Thin.ttf') format('truetype');
+        font-weight: 100;
+        font-style: normal;
+    } */
+    /* main */
+    /*  */
+    
+    body {
+        text-align: center;
+        font-family: Sahel, Vazir;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: Sahel, Vazir;
+    }
+    
+    .big-heading {
+        font-family: Vazir, Sahel;
+        font-size: 2.5rem;
+        line-height: 1.5;
+    }
+    
+    .colorfull-section {
+        background-color: #ff4c68;
+        color: #fff;
+    }
+    
+    .Uncolorfull-section {
+        background-color: #fff;
+    }
+    
+    .padding-extra {
+        padding: 8% 15%;
+    }
+    /* <!-- nav section --> */
+    
+    .navbar-brand {
+        font-family: 'Leckerli One', cursive;
+        font-size: 1.4rem;
+    }
+    
+    .navbar {
+        position: fixed !important;
+        width: 100%;
+        padding: .5% 15%;
+        z-index: 1;
+        font-size: 1.3rem;
+    }
+    /* <!-- header section --> */
+    
+    #title {
+        text-align: right;
+    }
+    
+    .img-header {
+        width: 60%;
+        transform: rotate(25deg);
+        position: absolute;
+        left: 20%;
+        z-index: 0;
+    }
+    /* Buttons */
+    
+    .download-button {
+        margin: 5% 0% 5% 5%;
+    }
+    
+    .download-button a {
+        color: white;
+        width: 3rem;
+    }
+    
+    .download-button a:hover {
+        text-decoration: none;
+    }
+    
+    .img-digikala {
+        width: 12%;
+    }
+    /*<!-- section 2 Features -->  */
+    
+    #features {
+        position: relative;
+    }
+    
+    .feature-box {
+        padding: 3%;
+        text-align: center;
+    }
+    
+    .feature-box p {
+        text-align: right;
+        text-justify: inter-word;
+        line-height: 2rem;
+        font-size: 1.3rem;
+    }
+    
+    .feature-box h3 {
+        line-height: 2rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    .icon {
+        color: #ef8172;
+        margin-bottom: 1rem;
+    }
+    
+    .icon:hover {
+        color: #ff4c68;
+    }
+    /* <!-- section 3 Testimonials --> */
+    
+    #testimonials {
+        background-color: #ef8172;
+    }
+    
+    .testimonial-image {
+        width: 10%;
+        border-radius: 100%;
+        margin: 20px;
+    }
+    
+    .testimonial-text {
+        text-align: right;
+        text-justify: inter-word;
+        line-height: 3rem;
+    }
+    
+    .testimonials-link {
+        color: white;
+    }
+    
+    .testimonials-link:hover {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    /* <!-- section 4 buy and price --> */
+    
+    #pricing {
+        padding: 100px;
+    }
+    
+    .price-text {
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+    
+    .pricing-column {
+        padding: 3% 2%;
+    }
+    
+    .download-button-similar a {
+        color: white;
+        width: 3rem;
+    }
+    
+    .download-button-similar a:hover {
+        text-decoration: none;
+    }
+    
+    .img-digikala-similar {
+        width: 9%;
+    }
+    
+    .padding-extra-pricin {
+        padding: 8% 11%;
+    }
+    
+    .section-heading {
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+    /*  <!-- section 5 autor --> */
+    
+    #autor {
+        text-align: right;
+    }
+    
+    #autor img {
+        width: 90%;
+        border-radius: 20%;
+        margin: 20px;
+    }
+    
+    .autor-link {
+        color: white;
+    }
+    
+    .autor-link:hover {
+        color: white;
+        text-decoration: none;
+    }
+    /*   <!-- section 6  Footer-->*/
+    
+    .social-icon {
+        margin: 10px 10px;
+    }
+    
+    .padding-extra-Footer {
+        padding: 8% 15% 1%;
+    }
+    
+    #footer a {
+        color: #ff4c68;
+    }
+    /*  */
+    /* Media */
+    
+    @media (max-width: 990px) {
+        #title {
+            text-align: center;
+        }
+        .img-header {
+            position: static;
+            transform: rotate(0);
+            padding-top: 10%;
+        }
+    }
+    /*  */
